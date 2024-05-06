@@ -123,7 +123,7 @@ form {
 }
 
 .gallery img {
-    width: calc(75%); /* Three images per row with 20px spacing */
+    width: calc(85%); /* Three images per row with 20px spacing */
     margin: 10px;
     transition: transform 0.3s;
 }
@@ -135,5 +135,44 @@ form {
 
 .gallery img:hover {
     transform: scale(1.05);
+}
+
+/* About page styling */
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    flex: 0 0 400px; /* Fixed width for the links */
+    background-color: #fff;
+    font-size: small;
+}
+
+.about-text p {
+    width: 75%;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.about-gallery {
+    flex: 1; /* Take remaining width */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.about-gallery img {
+    width: calc(150%); /* Three images per row with 20px spacing */
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.about-image {
+    width: calc(33.33%); /* Three images per row with 20px spacing */
 }
 
