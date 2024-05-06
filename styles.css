@@ -100,13 +100,13 @@ form {
 }
 
 .work-links {
-    flex: 0 0 200px; /* Fixed width for the links */
+    flex: 0 0 150px; /* Fixed width for the links */
     background-color: #fff;
+    font-size: small;
 }
 
 .work-links a {
     display: block;
-    margin-bottom: 10px;
     text-decoration: underline;
     color: #000;
 }
