@@ -122,6 +122,11 @@ form {
     padding: 20px;
 }
 
+.gallery-p {
+    width: calc(85%); /* Three images per row with 20px spacing */
+    margin: 10px;
+}
+
 .gallery img {
     width: calc(85%); /* Three images per row with 20px spacing */
     margin: 10px;
