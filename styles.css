@@ -1,5 +1,18 @@
+@font-face {
+    font-family: 'DotMatrix';
+    src: url('/assets/fonts/lcddot_tr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* * {
+    font-family: 'DotMatrix', sans-serif;
+} */
+
 body {
-    font-family: 'Nitti Typewriter', monospace;
+    /* font-family: 'Nitti Typewriter', monospace; */
+    font-family: 'DotMatrix', sans-serif;
+    font-size: xx-large;
     background-color: #fff;
     color: #000;
     margin: 0;
@@ -9,6 +22,7 @@ body {
 
 header {
     background-color: #fff;
+    font-size: xx-large;
     padding: 5px;
     text-align: left;
 }
@@ -23,8 +37,10 @@ nav {
 
 a {
     text-decoration: underline;
+    font-family: 'DotMatrix', sans-serif;
     color: #000;
     margin: 0 10px;
+    font-size: x-large;
 }
 
 a:hover {
@@ -48,6 +64,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: large;
 }
 
 footer a:hover {
@@ -80,6 +97,7 @@ h1 {
 }
 
 p {
+    /* font-family: 'Nitti Typewriter', monospace; */
     background-color: #fff;
     padding: 5px;
     margin: 0;
@@ -153,6 +171,7 @@ form {
 }
 
 .about-text {
+    font-family: 'Nitti Typewriter', monospace;
     flex: 0 0 400px; /* Fixed width for the links */
     background-color: #fff;
     font-size: small;
@@ -184,8 +203,15 @@ form {
 }
 
 
+#contact1 {
+    font-family: 'DotMatrix', sans-serif;
+}
 
 
+.docParagraph {
+    font-family: 'Nitti Typewriter', monospace;
+    font-size: medium;
+}
 
 
 /* modal test */
